@@ -1,0 +1,13 @@
+{
+  "services": {
+    "api": {
+      "nixpacks": false,
+      "build": {
+        "dockerfile": "Dockerfile"
+      },
+      "envVars": {
+        "PORT": "8888"
+      }
+    }
+  }
+}
